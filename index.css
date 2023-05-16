@@ -1,17 +1,22 @@
 .Auswahl-container{
     display: flex;
     flex-wrap: wrap;
+    margin-top: 300px;
 }
 .start-btn{
     position: relative;
     box-sizing: border-box;
-    display: inline-block;
+    display: flex;
     width: 50%;
-    height: 500px;
+    padding: 200px;
     border: 1px solid black;
     border-collapse: collapse;
     object-fit: contain;
     overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 body{
@@ -26,11 +31,20 @@ body{
     margin: auto;
  
 }
-.img-btn{
-    object-position: 50% 50%;
-    position: absolute;
-    width: 100%;
-    height: auto;
-    top: 0;
-    z-index: -1;
+.start-btn.Vorspeise{
+    background-image: url(imgs/Vorspeise.jpg);
+
+}
+
+.start-btn.Nachspeise{
+    background-image: url(imgs/Nachspeise.jpg);
+}
+.start-btn.Fleisch{
+    background-image: url(imgs/Fleischgerichte.jpg);
+}
+.start-btn.Nudeln{
+    background-image: url(imgs/Nudeln.jpg);
+}
+.start-btn.Hauptspeisen{
+    background-image: url(imgsHauptspeise.jpg);
 }
