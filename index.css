@@ -1,0 +1,36 @@
+.Auswahl-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.start-btn{
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 50%;
+    height: 500px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+body{
+    margin: 0;
+}
+
+.p-btn{
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    margin: auto;
+ 
+}
+.img-btn{
+    object-position: 50% 50%;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    z-index: -1;
+}
