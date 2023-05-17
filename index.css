@@ -1,7 +1,17 @@
+.h-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Eatsearcher{
+    font-size: 50px;
+}
+
 .Auswahl-container{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 300px;
+    margin-top: 150px;
 }
 .start-btn{
     position: relative;
@@ -17,10 +27,12 @@
     align-items: center;
     background-repeat: no-repeat;
     background-size: cover;
+    flex: 1;
 }
 
 body{
     margin: 0;
+    font-family: "Montserrat", sans-serif;
 }
 
 .p-btn{
