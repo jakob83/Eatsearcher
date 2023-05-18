@@ -3,23 +3,31 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-left: 20%;
+}
+.credits{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-style: italic;
+    font-weight: 500;
 }
 .Eatsearcher{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .Auswahl-container{
     display: flex;
     flex-wrap: wrap;
     margin-top: 150px;
+    margin-left: 20%;
 }
 .start-btn{
     position: relative;
     box-sizing: border-box;
     display: flex;
-    width: 50%;
+
     padding: 200px;
-    border: 1px solid black;
+    border: 7px solid rgb(105, 21, 21);
     border-collapse: collapse;
     object-fit: contain;
     overflow: hidden;
@@ -33,6 +41,7 @@
 body{
     margin: 0;
     font-family: "Montserrat", sans-serif;
+    position: relative;
 }
 
 .p-btn{
@@ -45,6 +54,7 @@ body{
 }
 .start-btn.Vorspeise{
     background-image: url(imgs/Vorspeise.jpg);
+
 
 }
 
@@ -59,4 +69,13 @@ body{
 }
 .start-btn.Hauptspeisen{
     background-image: url(imgs/Hauptspeise.jpg);
+}
+
+.navigation.home{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 20%;
+    background-color: rgb(44, 17, 17);
 }
