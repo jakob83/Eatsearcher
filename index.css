@@ -78,4 +78,82 @@ body{
     bottom: 0;
     width: 20%;
     background-color: rgb(44, 17, 17);
+
+}
+
+.big-container{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.container{
+    
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    box-sizing: border-box;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    gap: 10px;
+}
+
+.container > *{
+    flex: 1;
+}
+
+.background{
+
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    flex: 3;
+    border-radius: 10px;
+}
+.name{
+    font-size: larger;
+    font-weight: 600;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-ing{
+    border: 5px solid rgb(230, 185, 168);
+    border-radius: 10px;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-link{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(75, 11, 11);
+    color: white;
+    font-size: 20px;
+    font-family: "Montserrat";
+    align-self: center;
+    width: 80px;
+    transition: 0.15s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-link:hover{
+    background-color: rgb(230, 185, 168);
+
+}
+.btn-link:active{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 25px;
+
 }
